@@ -690,6 +690,7 @@
   let offsetX = 0;
   
   function updatePhoneSlide(slideIndex) {
+    if (!phonesTrack) return;
     currentSlide = slideIndex;
     // Track is 300% wide; each slide = 33.333% of track = 100% of visible area
     const offset = -(currentSlide * (100 / 3));
@@ -702,11 +703,13 @@
   }
   
   // Dot click nav
-  phoneDots.forEach((dot, idx) => {
-    dot.addEventListener('click', () => {
-      updatePhoneSlide(idx);
+  if (phonesTrack && phoneDots.length) {
+    phoneDots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => {
+        updatePhoneSlide(idx);
+      });
     });
-  });
+  }
 
   // Handle initial URL hash for legal tabs
   const initialHash = window.location.hash.substring(1);
@@ -723,31 +726,33 @@
   }
   
   // Touch swipe
-  phonesTrack.addEventListener('touchstart', (e) => {
-    isDragging = true;
-    startX = e.touches[0].clientX;
-    phonesTrack.classList.add('dragging');
-  });
-  
-  phonesTrack.addEventListener('touchmove', (e) => {
-    if (!isDragging) return;
-    offsetX = e.touches[0].clientX - startX;
-  });
-  
-  phonesTrack.addEventListener('touchend', () => {
-    isDragging = false;
-    phonesTrack.classList.remove('dragging');
+  if (phonesTrack) {
+    phonesTrack.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      startX = e.touches[0].clientX;
+      phonesTrack.classList.add('dragging');
+    });
     
-    const threshold = 50; // Min swipe distance
-    if (Math.abs(offsetX) > threshold) {
-      if (offsetX > 0 && currentSlide > 0) {
-        currentSlide--;
-      } else if (offsetX < 0 && currentSlide < 2) {
-        currentSlide++;
+    phonesTrack.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      offsetX = e.touches[0].clientX - startX;
+    });
+    
+    phonesTrack.addEventListener('touchend', () => {
+      isDragging = false;
+      phonesTrack.classList.remove('dragging');
+      
+      const threshold = 50; // Min swipe distance
+      if (Math.abs(offsetX) > threshold) {
+        if (offsetX > 0 && currentSlide > 0) {
+          currentSlide--;
+        } else if (offsetX < 0 && currentSlide < 2) {
+          currentSlide++;
+        }
       }
-    }
-    updatePhoneSlide(currentSlide);
-  });
+      updatePhoneSlide(currentSlide);
+    });
+  }
   
   // Keyboard nav
   document.addEventListener('keydown', (e) => {

@@ -11,6 +11,18 @@
   <!-- theme-color entfernt (Firefox/Opera Warnung) -->
   <title>Qvox — Ernährung · Training · Tracking</title>
   <meta name="description" content="Qvox: Deine All-in-One App für Ernährung, Training und Gesundheit. 5000+ Rezepte, KI-Empfehlungen, Coaching-Pläne, BMI-Rechner, Kalorienbedarf. Jetzt kostenlos starten!" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://qvox.ch/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Qvox" />
+  <meta property="og:title" content="Qvox — Ernährung, Training und Tracking in einer App" />
+  <meta property="og:description" content="Qvox vereint Ernährung, Training und Gesundheit in einer App. Starte kostenlos oder buche direkt den passenden Plan." />
+  <meta property="og:url" content="https://qvox.ch/" />
+  <meta property="og:image" content="https://qvox.ch/qvox_logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Qvox — Ernährung, Training und Tracking in einer App" />
+  <meta name="twitter:description" content="Qvox vereint Ernährung, Training und Gesundheit in einer App. Starte kostenlos oder buche direkt den passenden Plan." />
+  <meta name="twitter:image" content="https://qvox.ch/qvox_logo.png" />
   <link rel="apple-touch-icon" href="qvox_logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,27 +30,56 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="styles-inline.css" />
   <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Qvox",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "url": "https://qvox.ch/",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "CHF"
+      },
+      {
+        "@type": "Offer",
+        "name": "Jahresabo",
+        "price": "29.90",
+        "priceCurrency": "CHF"
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Qvox",
+      "email": "info@qvox.ch"
+    }
+  }
+  </script>
 </head>
 <body>
 
 <!-- ══════════ HEADER ══════════ -->
 <header class="header" id="top">
   <div class="container header__inner">
-    <a href="#top" class="header__logo">
+    <a href="index.html" class="header__logo">
       <img src="qvox_logo.png" alt="Qvox" class="header__logo-img" />
       <span class="header__logo-text">Qvox</span>
     </a>
     <nav class="header__nav" id="mainNav">
-      <a href="#features">Features</a>
-      <a href="#chefpilot">ChefPilot</a>
-      <a href="#pricing">Preise</a>
-      <a href="#clubs">Vereine</a>
-      <a href="#physio">Physio</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Kontakt</a>
-      <a href="#legal" class="nav-legal">Rechtliches</a>
+      <a href="features.html">Features</a>
+      <a href="features.html#chefpilot">ChefPilot</a>
+      <a href="preise.html">Preise</a>
+      <a href="index.html#clubs">Vereine</a>
+      <a href="index.html#physio">Physio</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="rechtliches.html" class="nav-legal">Rechtliches</a>
     </nav>
-    <a href="#pricing" class="btn btn--sm btn--primary header__cta">Jetzt starten</a>
+    <a href="preise.html" class="btn btn--sm btn--primary header__cta">Jetzt starten</a>
     <button class="header__burger" id="navToggle" aria-label="Menü öffnen">
       <span></span><span></span><span></span>
     </button>
@@ -59,17 +100,17 @@
       <h1 class="hero__title">Gewohnheiten,<br>die dein Leben&nbsp;verändern.</h1>
       <p class="hero__sub">Qvox vereint Meal-Tracking, 5000+ Rezepte, Coaching-Pläne und Leistungsanalysen in einer App — für Einzelpersonen, Athleten und Vereine.</p>
       <div class="hero__actions">
-        <a href="#pricing" class="btn btn--primary btn--lg">Kostenlos starten</a>
-        <a href="#features" class="btn btn--ghost btn--lg">Features entdecken</a>
+        <a href="preise.html" class="btn btn--primary btn--lg">Kostenlos starten</a>
+        <a href="features.html" class="btn btn--ghost btn--lg">Features entdecken</a>
       </div>
       <p class="hero__trust">Keine Kreditkarte · Jederzeit kündbar · Swiss-made</p>
       <!-- App Store Buttons -->
       <div class="hero__stores">
-        <a href="#" class="store-badge" aria-label="App Store">
+        <a href="kontakt.html" class="store-badge" aria-label="App Store (bald verfügbar)" title="Store-Release in Vorbereitung">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
           <div><small>Laden im</small><strong>App Store</strong></div>
         </a>
-        <a href="#" class="store-badge" aria-label="Google Play">
+        <a href="kontakt.html" class="store-badge" aria-label="Google Play (bald verfügbar)" title="Store-Release in Vorbereitung">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m.91-.91L19.65 12l-1.92-2.21-2.27 2.27 2.26 2.15M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/></svg>
           <div><small>Jetzt bei</small><strong>Google Play</strong></div>
         </a>
@@ -142,7 +183,7 @@
           <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26"/></svg>
         </div>
         <h3>Athlete Pro</h3>
-        <p>Performance-Metriken, Periodisierung, Wettkampf-Vorbereitung, 10+ Sportarten und 24/7 Priority-Support mit Coach-Konsultation.</p>
+        <p>Performance-Metriken, Periodisierung, Wettkampf-Vorbereitung, 10+ Sportarten und priorisierter Support über das Kontaktformular.</p>
       </article>
       <article class="feature-card reveal">
         <div class="feature-card__icon feature-card__icon--cyan">
@@ -437,6 +478,20 @@
         <button class="dot" data-slide="2" aria-label="Slide 3: Analytics"></button>
       </div>
     </div>
+
+    <div class="app-preview reveal">
+      <div class="app-preview__head">
+        <span class="section__eyebrow">Direkt aus deiner App</span>
+        <h3>Live-App als Referenz für die Darstellung</h3>
+        <p>Diese Vorschau lädt die echte Qvox Web-App. So orientiert sich die Website visuell an deinem realen Produkt statt nur an statischen Mockups.</p>
+      </div>
+      <div class="app-preview__frame-wrap">
+        <div class="app-preview__frame">
+          <iframe src="https://qvox.ch/app/" title="Qvox Live App Vorschau" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+        <a href="https://qvox.ch/app/" class="btn btn--outline" target="_blank" rel="noopener">App im Vollbild öffnen</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -658,7 +713,7 @@
           <li>Basis Health-Dashboard</li>
           <li>FAQ &amp; Dokumentation</li>
         </ul>
-        <a href="#contact" class="btn btn--outline btn--block">Kostenlos starten</a>
+        <a href="https://qvox.ch/app/" class="btn btn--outline btn--block">Kostenlos starten</a>
       </div>
       <div class="price-card reveal">
         <div class="price-card__head">
@@ -672,7 +727,7 @@
           <li>Advanced Analytics</li>
           <li>KI-Empfehlungen</li>
           <li>Daten-Export (PDF/CSV)</li>
-          <li>E-Mail-Support</li>
+          <li>Support über Kontaktformular</li>
         </ul>
         <a href="https://buy.stripe.com/aFa7sE4rUcBccEdaPtfMA00" target="_blank" rel="noopener" class="btn btn--outline btn--block">Jetzt kaufen via Stripe</a>
       </div>
@@ -689,7 +744,7 @@
           <li>Personalisierte Workouts</li>
           <li>Monatliche Ernährungsberichte</li>
           <li>Ziel-Tracking</li>
-          <li>Priority E-Mail-Support</li>
+          <li>Priorisierter Support über Kontaktformular</li>
         </ul>
         <div class="price-card__actions">
           <a href="https://buy.stripe.com/9B63co9MeeJk33D4r5fMA06" target="_blank" rel="noopener" class="btn btn--primary btn--block">Jetzt abonnieren</a>
@@ -708,12 +763,13 @@
           <li>10+ Sportarten-Tracking</li>
           <li>Trainingsplan-Templates</li>
           <li>Periodisierung &amp; Wettkampf</li>
-          <li>24/7 Priority-Support</li>
+          <li>Priorisierter Support über Kontaktformular</li>
           <li>Coach-Konsultation (In-App)</li>
         </ul>
         <a href="https://buy.stripe.com/aFafZagaC30C5bLcXBfMA03" target="_blank" rel="noopener" class="btn btn--outline btn--block">Jetzt kaufen via Stripe</a>
       </div>
     </div>
+    <p class="pricing__support-note reveal">Support-Anfragen sind ausschließlich über das Kontaktformular möglich. Je nach Plan gelten unterschiedliche Antwortzeiten.</p>
 
     <!-- Comparison -->
     <details class="compare reveal">
@@ -734,7 +790,7 @@
             <tr><td>Athlete</td><td>✗</td><td>✗</td><td>✗</td><td>✓</td><td>✗</td><td>✗</td><td>✓</td></tr>
             <tr><td>Club</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>Basis</td><td>Voll</td><td>Premium</td></tr>
             <tr><td>API</td><td>✗</td><td>✗</td><td>✗</td><td>✗</td><td>Limitiert</td><td>Voll</td><td>Voll</td></tr>
-            <tr><td>Support</td><td>FAQ</td><td>E-Mail</td><td>E-Mail</td><td>24/7</td><td>E-Mail</td><td>Priority</td><td>24/7 Dediz.</td></tr>
+            <tr><td>Support</td><td>Kontaktformular</td><td>Kontaktformular</td><td>Kontaktformular</td><td>Kontaktformular (priorisiert)</td><td>Kontaktformular</td><td>Kontaktformular (priorisiert)</td><td>Kontaktformular (dediziert)</td></tr>
           </tbody>
         </table>
       </div>
@@ -790,8 +846,8 @@
         <div class="clubs__icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
         </div>
-        <h4>Priority Support</h4>
-        <p>Dedizierter Account-Manager (Club Elite), 24/7 Telefon- und E-Mail-Support. Ihr seid nie allein.</p>
+        <h4>Priorisierter Support</h4>
+        <p>Support läuft über das Kontaktformular. Club Elite erhält dedizierte Betreuung und priorisierte Antwortzeiten.</p>
       </div>
     </div>
     <div class="clubs__cta reveal">
@@ -866,7 +922,7 @@
           </li>
         </ul>
         <div class="physio__cta">
-          <a href="#contact" class="btn btn--primary">Benachrichtigt werden</a>
+          <a href="kontakt.html" class="btn btn--primary">Benachrichtigt werden</a>
           <p class="physio__hint">Registriert euch und wir informieren euch, sobald es losgeht.</p>
         </div>
       </div>
@@ -994,14 +1050,14 @@
     <h2>Bereit für Ergebnisse?<br>Starte noch heute mit deinem Plan.</h2>
     <p>Erstelle dein kostenloses Konto und entdecke, wie Qvox dein Leben verändern kann.</p>
     <div class="cta-banner__buttons">
-      <a href="#pricing" class="btn btn--primary btn--lg">Jetzt kostenlos starten</a>
+      <a href="preise.html" class="btn btn--primary btn--lg">Jetzt kostenlos starten</a>
     </div>
     <div class="cta-banner__stores">
-      <a href="#" class="store-badge store-badge--dark" aria-label="App Store">
+      <a href="kontakt.html" class="store-badge store-badge--dark" aria-label="App Store (bald verfügbar)" title="Store-Release in Vorbereitung">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
         <div><small>Laden im</small><strong>App Store</strong></div>
       </a>
-      <a href="#" class="store-badge store-badge--dark" aria-label="Google Play">
+      <a href="kontakt.html" class="store-badge store-badge--dark" aria-label="Google Play (bald verfügbar)" title="Store-Release in Vorbereitung">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m.91-.91L19.65 12l-1.92-2.21-2.27 2.27 2.26 2.15M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/></svg>
         <div><small>Jetzt bei</small><strong>Google Play</strong></div>
       </a>
@@ -1015,6 +1071,7 @@
     <div class="section__head reveal">
       <span class="section__eyebrow">Kontakt</span>
       <h2 class="section__title">Wir sind für dich da</h2>
+      <p class="section__sub">Support ist ausschließlich über dieses Kontaktformular möglich.</p>
     </div>
     <div class="contact__grid">
       <form id="contactForm" class="contact__form reveal" action="https://formsubmit.co/info@qvox.ch" method="POST">
@@ -1034,8 +1091,8 @@
           <p>Mamadou Balde<br>Limmatstrasse 310<br>8005 Zürich, Schweiz</p>
         </div>
         <div class="contact__info-card">
-          <h4>E-Mail</h4>
-          <p><strong>E-Mail:</strong> <a href="mailto:info@qvox.ch">info@qvox.ch</a></p>
+          <h4>Allgemeine E-Mail (kein Support)</h4>
+          <p><strong>E-Mail:</strong> <a href="mailto:info@qvox.ch">info@qvox.ch</a><br>Für Support nutze bitte ausschließlich das Kontaktformular.</p>
         </div>
       </div>
     </div>
@@ -1122,7 +1179,7 @@
       <h3>Angaben gemäss Art. 3 UWG / Art. 5 DSG</h3>
       <p><strong>Qvox</strong> — Einzelunternehmen (CH-OR)<br><strong>Inhaber:</strong> Mamadou Balde<br><strong>Adresse:</strong> Limmatstrasse 310, 8005 Zürich, Schweiz<br><strong>E-Mail:</strong> <a href="mailto:info@qvox.ch">info@qvox.ch</a></p>
       <h3>Handelsregister</h3>
-      <p>Kanton Zürich · UID: CHE-[wird nachgetragen] · Aufsichtsbehörde: EDÖB</p>
+      <p>Kanton Zürich · UID: in Eintragung · Aufsichtsbehörde: EDÖB</p>
       <h3>Haftungsausschluss</h3>
       <p>Alle Inhalte werden <strong>ohne Gewähr</strong> bereitgestellt. Qvox übernimmt keine Haftung für die Anwendung bereitgestellter Empfehlungen, Schäden oder technische Störungen. Der Dienst ersetzt <strong>keine medizinische Beratung</strong>. Jede Nutzerin und jeder Nutzer handelt auf eigenes Risiko.</p>
       <p>Soweit gesetzlich zulässig, ist jede Haftung für direkte, indirekte, zufällige oder Folgeschäden ausgeschlossen.</p>
@@ -1141,7 +1198,7 @@
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">
-      <a href="#top" class="footer__logo">
+      <a href="index.html" class="footer__logo">
         <img src="qvox_logo.png" alt="Qvox" class="footer__logo-img" />
         <span>Qvox</span>
       </a>
@@ -1150,29 +1207,29 @@
     <div class="footer__links">
       <div class="footer__col">
         <h4>Produkt</h4>
-        <a href="#features">Features</a>
-        <a href="#chefpilot">ChefPilot</a>
-        <a href="#pricing">Preise</a>
-        <a href="#faq">FAQ</a>
+        <a href="features.html">Features</a>
+        <a href="features.html#chefpilot">ChefPilot</a>
+        <a href="preise.html">Preise</a>
+        <a href="index.html#faq">FAQ</a>
       </div>
       <div class="footer__col">
         <h4>Entdecken</h4>
-        <a href="#top">Über uns</a>
-        <a href="#testimonials">Erfolgsgeschichten</a>
-        <a href="#features">Kalorientabelle</a>
-        <a href="#faq">Hilfe</a>
-        <a href="#pricing">Rechner</a>
+        <a href="index.html">Über uns</a>
+        <a href="index.html#showcase">Erfolgsgeschichten</a>
+        <a href="index.html#table">Kalorientabelle</a>
+        <a href="index.html#faq">Hilfe</a>
+        <a href="index.html#tools">Rechner</a>
       </div>
       <div class="footer__col">
         <h4>Rechtliches</h4>
-        <a href="#agb">AGB</a>
-        <a href="#datenschutz">Datenschutz</a>
-        <a href="#impressum">Impressum</a>
+        <a href="rechtliches.html#agb">AGB</a>
+        <a href="rechtliches.html#datenschutz">Datenschutz</a>
+        <a href="rechtliches.html#impressum">Impressum</a>
       </div>
       <div class="footer__col">
         <h4>Kontakt</h4>
-        <a href="mailto:info@qvox.ch">info@qvox.ch</a>
-        <a href="#contact">Kontaktformular</a>
+        <a href="kontakt.html">Kontaktformular</a>
+        <a href="kontakt.html#support-form">Support anfragen</a>
       </div>
     </div>
   </div>
@@ -1188,7 +1245,7 @@
   <div class="cookie-consent__inner">
     <div class="cookie-consent__text">
       <strong>🍪 Cookie-Hinweis</strong>
-      <p>Wir verwenden Cookies und lokale Speicherung für essenzielle Website-Funktionen. Weitere Infos findest du in unserer <a href="#legal">Datenschutzerklärung</a>.</p>
+      <p>Wir verwenden nur essenzielle Cookies und lokale Speicherung. Keine Marketing-Tracker. Weitere Infos findest du in unserer <a href="#legal">Datenschutzerklärung</a>.</p>
     </div>
     <div class="cookie-consent__actions">
       <button class="btn btn--primary btn--sm" onclick="acceptCookies()">Akzeptieren</button>

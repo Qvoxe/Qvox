@@ -1032,3 +1032,47 @@
   margin-top: .75rem;
   opacity: .7;
 }
+
+/* Live app reference block (uses real /app web build in iframe) */
+.app-preview {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(140deg, rgba(11, 18, 32, 0.78), rgba(5, 10, 20, 0.92));
+}
+.app-preview__head h3 {
+  margin: 0.35rem 0 0.65rem;
+  font-size: var(--fs-2xl);
+  color: var(--text1);
+}
+.app-preview__head p {
+  margin: 0 0 1.1rem;
+  color: var(--text2);
+}
+.app-preview__frame-wrap {
+  display: grid;
+  gap: 0.85rem;
+  justify-items: center;
+}
+.app-preview__frame {
+  width: min(360px, 100%);
+  border: 10px solid #111827;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.45);
+  background: #02040b;
+}
+.app-preview__frame iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 19.5;
+  border: 0;
+  background: #02040b;
+}
+
+.pricing__support-note {
+  margin-top: 1rem;
+  color: var(--text2);
+  font-size: var(--fs-sm);
+}
