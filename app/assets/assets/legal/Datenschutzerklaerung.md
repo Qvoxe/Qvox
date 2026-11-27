@@ -1,200 +1,151 @@
-# DatenschutzerklÃ¤rung
+# Datenschutzerklärung
 
-**Letzte Aktualisierung: 22. MÃ¤rz 2026**
+**Stand: 26. November 2026**
+
+Diese Datenschutzerklärung gilt für die App «Qvoxe» (Android, Web) und die Website von Qvoxe. Sie erklärt, welche Personendaten wir bearbeiten, wozu, an wen wir sie weitergeben und welche Rechte du hast. Massgeblich ist das Schweizer Datenschutzgesetz (DSG). Soweit die Datenschutz-Grundverordnung der EU (DSGVO) anwendbar ist, gelten die dort vorgesehenen Rechte ebenfalls.
 
 ---
 
 ## 1. Verantwortliche Stelle
 
-**Unternehmen:** Qvox
-**Verantwortlicher:** Mamadou Balde
-**GeschÃ¤ftsadresse:** Freiestrasse 100, 8032 ZÃ¼rich, Schweiz
-**E-Mail (Datenschutz):** info@qvox.ch
-**Support:** info@qvox.ch
+Qvoxe, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
+Müllerwis 20, 8606 Greifensee, Schweiz
+E-Mail: support.qvoxe@gmail.com
+
+Für alle Fragen zum Datenschutz und für Anfragen zu deinen Rechten erreichst du uns unter dieser Adresse.
 
 ---
 
-## 2. Welche Daten wir verarbeiten
+## 2. Welche Daten wir bearbeiten
 
-Je nach Nutzung des Dienstes verarbeiten wir insbesondere folgende Kategorien personenbezogener Daten:
+**Konto**
+- Name, E-Mail-Adresse, Passwort (nur als Hash gespeichert), Sprache.
+- Bei Anmeldung mit Google oder Apple: die von diesem Dienst übermittelte E-Mail-Adresse und der Name.
 
-### 2.1 Kontodaten
+**Profil und Ziele**
+- Angaben aus dem Onboarding und Profil, z. B. Ziel, Allergien und Unverträglichkeiten, Fitness-Level, Ausrüstung, Trainingszeit, Körperdaten wie Gewicht und Grösse, sofern du sie erfasst.
 
-- E-Mail-Adresse, Passwort-Hash (PasswÃ¶rter werden nie im Klartext gespeichert)
-- Name bzw. Anzeigename (optional)
+**Ernährungstagebuch und Training**
+- Mahlzeiten, Nährwerte, Rezepte, Favoriten, Trainingspläne und absolvierte Trainings.
 
-### 2.2 Profildaten (optional)
+**Fotos von Mahlzeiten**
+- Wenn du ein Foto aufnimmst oder auswählst, wird es zur Erkennung der Lebensmittel an unseren Server und von dort an Google (siehe Ziffer 4) übermittelt. Das Foto wird nur gespeichert, wenn du die Mahlzeit im Tagebuch speicherst.
 
-- KÃ¶rperdaten (z. B. GrÃ¶sse, Gewicht), Ziele, AktivitÃ¤tslevel
-- Gesundheitsbezogene Angaben (z. B. Allergien), sofern von der nutzenden Person eingegeben
+**Gesundheitsdaten (Health Connect / Apple Health)**
+- Nur wenn du ausdrücklich zustimmst: Schritte, Herzfrequenz, Schlaf, aktive Kalorien, Trainings, Gewicht und Körperfettanteil.
+- Wir nutzen sie ausschliesslich, um deinen Tagesbedarf, dein Kalorienziel und deine Trainingsübersicht zu berechnen. Dazu werden Tageswerte an unseren Server übertragen und dort gespeichert.
+- Gesundheitsdaten werden **nicht** an Google Gemini übermittelt, **nicht** verkauft, **nicht** für Werbung genutzt und nicht an Dritte weitergegeben, ausser an unseren Hosting-Anbieter, der sie in unserem Auftrag speichert.
 
-> **Hinweis:** Diese Daten kÃ¶nnen nach Schweizer Recht (DSG) als besonders schÃ¼tzenswerte Personendaten gelten.
+**Chat mit Nova (KI-Assistent)**
+- Deine Nachrichten sowie Ziel, Allergien und Fitness-Level werden an Google Gemini übermittelt, damit Nova passende Antworten geben kann. Pro Tag gibt es eine Höchstzahl an Nachrichten; dafür zählen wir, wie viele Nachrichten du pro Tag sendest.
 
-### 2.3 Nutzungs- und Protokolldaten
+**Trainer, Clubs und Teams**
+- Wenn du einem Club, Team oder Trainer beitrittst, sehen diese die Angaben, die du dort teilst (z. B. Trainingspläne, absolvierte Trainings, eingereichte Videos, Nachrichten und Einträge zu deinem Befinden). Du entscheidest selbst, ob du beitrittst.
 
-- IP-Adresse, Zeitstempel, Request-IDs
-- Technische Logs zur Fehleranalyse und Missbrauchsabwehr
+**Zahlungen**
+- **In der Android-App** bezahlst du über Google Play. Zahlungsdaten gibst du bei Google ein; wir erhalten sie nicht. Von Google erhalten wir zum Kauf: Produkt, Bestellnummer, Kaufkennung (Token), Laufzeit, Status (z. B. aktiv, gekündigt, erstattet) und ob sich das Abo verlängert. Damit ein Kauf nur deinem Konto zugeordnet wird, geben wir Google beim Kauf eine pseudonyme Kennung (Hash) deines Kontos mit, aus der Google deinen Namen oder deine E-Mail nicht ablesen kann.
+- **Auf der Website** wickelt Stripe die Zahlung ab. Kartendaten gibst du direkt bei Stripe ein; wir erhalten sie nicht. Wir speichern Plan, Betrag, Zeitpunkt, Status und die Stripe-Kennungen von Kunde, Zahlung und Abo.
 
-### 2.4 Inhalte und Uploads
+**Technische Daten**
+- IP-Adresse, Gerätetyp, App-Version, Zeitpunkt von Anfragen, Fehlermeldungen sowie einfache Nutzungsereignisse (z. B. «Funktion geöffnet», «Berechtigung erteilt»). Diese Daten dienen dem Betrieb, der Sicherheit und der Fehlerbehebung. Wir setzen keine Werbe-Tracker ein.
 
-- Von der nutzenden Person hochgeladene Inhalte (z. B. Trainings- oder Technikvideos)
-- Metadaten (Dateiname, GrÃ¶sse, Zeitstempel)
-
-### 2.5 Zahlungsdaten
-
-- Transaktions-IDs und Zahlungsstatus (via Stripe)
-- Es werden **keine vollstÃ¤ndigen Kreditkartennummern** durch Qvox gespeichert
-
-### 2.6 Kommunikation
-
-- Support-Anfragen und Nachrichten zwischen Kundinnen/Kunden und Trainerinnen/Trainern (falls aktiviert)
-
----
-
-## 3. Zwecke der Verarbeitung
-
-Wir verarbeiten Daten fÃ¼r folgende Zwecke:
-
-- Bereitstellung und Betrieb des Dienstes
-- Authentifizierung und Sicherheit (Missbrauchserkennung, Betrugs- und Angriffsschutz)
-- Abwicklung von Zahlungen und Abonnements Ã¼ber Stripe
-- ErfÃ¼llung vertraglicher Pflichten und Support
-- Weiterentwicklung, Fehleranalyse und Verbesserung des Dienstes
+**Benachrichtigungen**
+- Erinnerungen werden lokal auf deinem Gerät geplant.
 
 ---
 
-## 4. Rechtsgrundlagen (Schweiz / EU)
+## 3. Zwecke und Rechtsgrundlagen
 
-### Schweizer Datenschutzgesetz (DSG)
+- **Vertrag:** Bereitstellung der App, des Kontos, der Premium-Funktionen und Abwicklung von Zahlungen.
+- **Einwilligung:** Gesundheitsdaten aus Health Connect / Apple Health, Kamera- und Fotozugriff, Benachrichtigungen. Gesundheitsdaten sind besonders schützenswerte Personendaten; wir bearbeiten sie nur mit deiner ausdrücklichen Einwilligung. Du kannst sie jederzeit widerrufen (siehe Ziffer 7).
+- **Berechtigtes Interesse:** sicherer und stabiler Betrieb, Missbrauchsschutz, Fehleranalyse, Verbesserung der App.
+- **Gesetzliche Pflicht:** Aufbewahrung von Buchhaltungsunterlagen.
 
-Wir verarbeiten personenbezogene Daten nach dem revidierten Schweizer Datenschutzgesetz (DSG). Je nach Kontext erfolgt die Verarbeitung:
-
-- zur VertragserfÃ¼llung
-- auf Grundlage Ã¼berwiegender Interessen (z. B. Sicherheit, Missbrauchsabwehr)
-- auf Grundlage einer Einwilligung (falls erforderlich)
-
-### EU-DSGVO
-
-Sofern Personen aus dem EU-/EWR-Raum den Dienst nutzen, kann zusÃ¤tzlich die DSGVO zur Anwendung kommen. In diesem Fall gelten die in dieser ErklÃ¤rung genannten Rechte sinngemÃ¤ss.
+Wir treffen keine automatisierten Einzelentscheidungen, die für dich rechtliche Folgen haben. Die Vorschläge von Nova und der Fotoerkennung sind Hinweise, keine Entscheidungen.
 
 ---
 
-## 5. EmpfÃ¤nger und Auftragsverarbeiter
+## 4. Weitergabe an Dienstleister
 
-Je nach Nutzung kÃ¶nnen Daten an folgende Kategorien von EmpfÃ¤ngern Ã¼bermittelt werden:
+Wir geben Daten nur an Dienstleister weiter, die sie in unserem Auftrag oder für die genannte Funktion bearbeiten:
 
-- **Hosting- und Infrastruktur-Anbieter** (Server, Datenbanken)
-- **Stripe, Inc.** â€” Zahlungsabwicklung (Sitz: USA; Standardvertragsklauseln vorhanden)
-- **E-Mail- und Support-Dienstleister** (falls verwendet)
-- **Trainerinnen/Trainer**, soweit sie dem Konto zugewiesen sind
+| Dienstleister | Zweck | Daten | Sitz |
+|---|---|---|---|
+| Railway Corporation (Hosting) | Server und Datenbank | alle in Ziffer 2 genannten Daten, die auf dem Server gespeichert werden | USA; Server in den Niederlanden (EU) |
+| Google LLC / Google Ireland (Gemini API) | KI-Chat «Nova» und Fotoerkennung | Chat-Nachrichten, Ziel, Allergien, Fitness-Level, Fotos | USA / EU |
+| Google (Cloud Vision API) | Fotoerkennung | Fotos | USA / EU |
+| Google (Sign-In) | Anmeldung mit Google | E-Mail, Name | USA / EU |
+| Google (Google Fonts) | Schriftarten der App | IP-Adresse beim Laden der Schrift | USA / EU |
+| Apple Inc. (Sign in with Apple) | Anmeldung mit Apple | E-Mail, Name | USA |
+| Stripe Payments Europe Ltd. | Zahlungsabwicklung | Name, E-Mail, Zahlungsdaten, Betrag | Irland / USA |
+| Resend (Plus Five Five Inc.) | Versand von E-Mails (z. B. Bestätigung, Passwort) | E-Mail-Adresse, Name, Inhalt der E-Mail | USA |
+| Open Food Facts | Nährwerte zu Strichcodes | nur der gescannte Strichcode, keine Personendaten | Frankreich |
+| Google Play (Google Ireland Ltd. / Google LLC) | Vertrieb der App, Zahlungen in der Android-App | Kaufdaten wie oben, pseudonyme Kontokennung; Zahlungsdaten bearbeitet Google selbst | Irland / USA |
 
-**Wir verkaufen keine personenbezogenen Daten.**
+Für die Gemini API gelten die Bedingungen für kostenpflichtige Dienste: Google verwendet die übermittelten Inhalte nicht zum Training seiner Modelle.
 
----
+**Übermittlung ins Ausland:** Einige Dienstleister bearbeiten Daten in den USA. Die Übermittlung stützt sich auf das Swiss-U.S. bzw. EU-U.S. Data Privacy Framework, soweit der Anbieter zertifiziert ist, sonst auf die Standardvertragsklauseln der EU-Kommission, die vom EDÖB anerkannt sind.
 
-## 6. Speicherung und Aufbewahrung
-
-Wir speichern Daten nur so lange, wie es fÃ¼r die jeweiligen Verarbeitungszwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen:
-
-| Datenkategorie | Speicherdauer |
-|---|---|
-| Kontodaten | Bis zur LÃ¶schung des Kontos |
-| Protokolldaten (Logs) | 30 Tage |
-| Zahlungs- und Buchhaltungsdaten | 7 Jahre (gemÃ¤ss Schweizer Buchhaltungsrecht) |
-| Uploads | Bis zur LÃ¶schung durch die nutzende Person oder KontolÃ¶schung |
-
----
-
-## 7. Sicherheitsmassnahmen
-
-Wir setzen technische und organisatorische Massnahmen ein, um personenbezogene Daten zu schÃ¼tzen:
-
-- Zugangskontrollen und rollenbasierte Berechtigungen
-- TransportverschlÃ¼sselung (HTTPS) im Produktivbetrieb
-- Rate-Limiting und Missbrauchsschutz
-- Sichere Speicherung von PasswÃ¶rtern (Hashing mit bcrypt)
-- RegelmÃ¤ssige SicherheitsprÃ¼fungen
+Wir verkaufen keine Personendaten.
 
 ---
 
-## 8. Cookies und lokale Speicherung
+## 5. Speicherdauer
 
-Der Dienst kann Cookies einsetzen, z. B. fÃ¼r Login-Sitzungen und Token.
-
-| Cookie-Typ | Beschreibung | Erforderlich? |
-|---|---|---|
-| Sitzungscookies | Login und Authentifizierung | Ja (essentiell) |
-| Analytics/Tracking | Nicht eingesetzt | â€” |
-| Drittanbieter-Cookies | Nicht eingesetzt | â€” |
-
-**Wir nutzen kein Analytics-Tracking und keine Drittanbieter-Cookies.**
+- **Konto, Profil, Tagebuch, Training, Gesundheitsdaten, Chat:** bis du dein Konto löschst.
+- **Fotos:** nur wenn du die Mahlzeit speicherst, sonst werden sie nach der Analyse verworfen.
+- **Zahlungs- und Buchhaltungsunterlagen** (inkl. Rechnungsname und -adresse): 10 Jahre (Art. 958f OR), auch nach Löschung des Kontos.
+- **Technische Protokolle:** nur so lange, wie es für Betrieb, Sicherheit und Fehlerbehebung nötig ist.
 
 ---
 
-## 9. Deine Rechte
+## 6. Konto und Daten löschen
 
-Du hast im Rahmen des geltenden Rechts folgende Rechte:
+Du kannst dein Konto jederzeit in der App unter **Profil → Konto löschen** löschen. Dabei werden dein Konto und die zugehörigen Daten (Profil, Tagebuch, Training, Gesundheitsdaten, Chat) gelöscht. Ausgenommen sind Unterlagen, die wir gesetzlich aufbewahren müssen (Ziffer 5).
 
-### 9.1 Auskunftsrecht (Art. 25 DSG / Art. 15 DSGVO)
+Ohne App kannst du die Löschung per E-Mail an support.qvoxe@gmail.com verlangen. Eine Anleitung findest du auf unserer Website unter «Konto löschen».
 
-Du kannst anfragen, welche Daten wir Ã¼ber dich verarbeiten.
-**Anfrage an:** info@qvox.ch
-
-### 9.2 Recht auf Berichtigung (Art. 32 DSG / Art. 16 DSGVO)
-
-Du kannst falsche oder unvollstÃ¤ndige Daten korrigieren lassen.
-**In der App:** Einstellungen > Profil > Daten bearbeiten
-
-### 9.3 Recht auf LÃ¶schung (Art. 32 DSG / Art. 17 DSGVO)
-
-Unter bestimmten Voraussetzungen kannst du die LÃ¶schung deiner Daten verlangen.
-**Anfrage an:** info@qvox.ch mit Betreff Â«LÃ¶schantragÂ»
-
-### 9.4 Recht auf DatenportabilitÃ¤t (Art. 28 DSG / Art. 20 DSGVO)
-
-Du kannst deine Daten in einem strukturierten, gÃ¤ngigen Format exportieren.
-**In der App:** Einstellungen > Datenschutz > Daten exportieren
-
-### 9.5 Widerspruchsrecht (Art. 21 DSGVO)
-
-Du kannst Marketing-Benachrichtigungen jederzeit abmelden.
-**In der App:** Einstellungen > Benachrichtigungen > Marketing deaktivieren
-
-### 9.6 Beschwerderecht bei einer AufsichtsbehÃ¶rde
-
-Bei Datenschutzbedenken kannst du dich an folgende BehÃ¶rden wenden:
-
-- **Schweiz:** EidgenÃ¶ssischer Datenschutz- und Ã–ffentlichkeitsbeauftragter (EDÃ–B) â€” www.edoeb.admin.ch
-- **Deutschland:** ZustÃ¤ndige LandesdatenschutzbehÃ¶rde
-- **Ã–sterreich:** Ã–sterreichische DatenschutzbehÃ¶rde (dsb.gv.at)
+Ein laufendes Abo (Google Play oder Stripe) wird beim Löschen beendet: Es verlängert sich nicht mehr und es erfolgen keine weiteren Zahlungen. Die restliche Laufzeit wird nicht zurückerstattet. Nur die App zu deinstallieren beendet weder das Konto noch das Abo.
 
 ---
 
-## 10. DatenÃ¼bermittlung ins Ausland
+## 7. Einwilligung widerrufen
 
-Je nach Hosting- und Dienstleistungsanbietern kÃ¶nnen Daten in LÃ¤nder ausserhalb der Schweiz Ã¼bermittelt werden. In solchen FÃ¤llen stellen wir durch geeignete Garantien (z. B. EU-Standardvertragsklauseln, angemessenes Datenschutzniveau gemÃ¤ss EDÃ–B-Liste) sicher, dass der Schutz der Daten gewÃ¤hrleistet bleibt.
+- **Gesundheitsdaten:** In den Einstellungen von Health Connect (Android) bzw. Apple Health (iOS) kannst du den Zugriff für Qvoxe jederzeit entziehen. Danach lesen wir keine neuen Werte mehr. Bereits übertragene Werte löschen wir auf Anfrage oder mit der Löschung des Kontos.
+- **Kamera, Fotos, Benachrichtigungen:** in den Systemeinstellungen deines Geräts.
 
----
-
-## 11. Ã„nderungen dieser DatenschutzerklÃ¤rung
-
-Diese DatenschutzerklÃ¤rung kann bei Bedarf angepasst werden â€” etwa bei GesetzesÃ¤nderungen, neuen Funktionen oder geÃ¤nderten Verarbeitungszwecken. Die aktuelle Fassung ist stets Ã¼ber den Dienst abrufbar. Bei wesentlichen Ã„nderungen werden Nutzerinnen und Nutzer informiert.
+Der Widerruf gilt für die Zukunft; die Bearbeitung bis dahin bleibt rechtmässig.
 
 ---
 
-## 12. Kontakt und Hilfe
+## 8. Deine Rechte
 
-- **Datenschutz-Anfragen:** info@qvox.ch
-- **Support:** info@qvox.ch
-- **Allgemein:** info@qvox.ch
+Du hast das Recht auf:
+- Auskunft über deine Personendaten,
+- Berichtigung unrichtiger Daten,
+- Löschung deiner Daten,
+- Herausgabe oder Übertragung deiner Daten in einem gängigen Format,
+- Widerspruch gegen die Bearbeitung auf Grundlage berechtigter Interessen,
+- Widerruf einer Einwilligung.
+
+Schreibe dazu an support.qvoxe@gmail.com. Wir antworten in der Regel innert 30 Tagen. Zur Prüfung deiner Identität können wir einen Nachweis verlangen.
+
+Du kannst dich ausserdem beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB, www.edoeb.admin.ch) beschweren, bzw. bei der Aufsichtsbehörde deines Wohnsitzlandes in der EU.
 
 ---
 
-## 13. WeiterfÃ¼hrende Dokumente
+## 9. Sicherheit
 
-- **Impressum:** Im App-MenÃ¼ unter Einstellungen â†’ Rechtliches â†’ Impressum
-- **Allgemeine GeschÃ¤ftsbedingungen:** Im App-MenÃ¼ unter Einstellungen â†’ Rechtliches â†’ AGB
+Die Verbindung zwischen App und Server ist verschlüsselt (HTTPS). Passwörter speichern wir nur als Hash. Anmelde-Token werden auf dem Gerät im geschützten Speicher abgelegt. Der Zugriff auf die Datenbank ist auf das Nötigste beschränkt.
 
 ---
 
-*Zuletzt aktualisiert: 22. MÃ¤rz 2026*
+## 10. Kinder und Jugendliche
+
+Qvoxe richtet sich an Personen ab 16 Jahren. Jüngere Personen dürfen die App nur mit Zustimmung ihrer Eltern nutzen.
+
+---
+
+## 11. Änderungen
+
+Wir passen diese Datenschutzerklärung an, wenn sich die App oder das Recht ändert. Es gilt die jeweils in der App und auf der Website veröffentlichte Fassung. Über wesentliche Änderungen informieren wir in der App.

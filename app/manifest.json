@@ -1,11 +1,11 @@
 {
-    "name": "Qvox",
-    "short_name": "Qvox",
+    "name": "Qvoxe",
+    "short_name": "Qvoxe",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#111111",
     "theme_color": "#111111",
-    "description": "Qvox - Trainings- & Ernährungsapp",
+    "description": "Qvoxe - Trainings- & Ernährungsapp",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
