@@ -2,13 +2,13 @@
 
 **Stand: 26. November 2026**
 
-Diese Datenschutzerklärung gilt für die App «Qvox» (Android, Web) und die Website von Qvox. Sie erklärt, welche Personendaten wir bearbeiten, wozu, an wen wir sie weitergeben und welche Rechte du hast. Massgeblich ist das Schweizer Datenschutzgesetz (DSG). Soweit die Datenschutz-Grundverordnung der EU (DSGVO) anwendbar ist, gelten die dort vorgesehenen Rechte ebenfalls.
+Diese Datenschutzerklärung gilt für die App «Qvoxe» (Android, Web) und die Website von Qvoxe. Sie erklärt, welche Personendaten wir bearbeiten, wozu, an wen wir sie weitergeben und welche Rechte du hast. Massgeblich ist das Schweizer Datenschutzgesetz (DSG). Soweit die Datenschutz-Grundverordnung der EU (DSGVO) anwendbar ist, gelten die dort vorgesehenen Rechte ebenfalls.
 
 ---
 
 ## 1. Verantwortliche Stelle
 
-Qvox, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
+Qvoxe, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
 Müllerwis 20, 8606 Greifensee, Schweiz
 E-Mail: support.qvoxe@gmail.com
 
@@ -111,7 +111,7 @@ Ein laufendes Abo (Google Play oder Stripe) wird beim Löschen beendet: Es verl�
 
 ## 7. Einwilligung widerrufen
 
-- **Gesundheitsdaten:** In den Einstellungen von Health Connect (Android) bzw. Apple Health (iOS) kannst du den Zugriff für Qvox jederzeit entziehen. Danach lesen wir keine neuen Werte mehr. Bereits übertragene Werte löschen wir auf Anfrage oder mit der Löschung des Kontos.
+- **Gesundheitsdaten:** In den Einstellungen von Health Connect (Android) bzw. Apple Health (iOS) kannst du den Zugriff für Qvoxe jederzeit entziehen. Danach lesen wir keine neuen Werte mehr. Bereits übertragene Werte löschen wir auf Anfrage oder mit der Löschung des Kontos.
 - **Kamera, Fotos, Benachrichtigungen:** in den Systemeinstellungen deines Geräts.
 
 Der Widerruf gilt für die Zukunft; die Bearbeitung bis dahin bleibt rechtmässig.
@@ -142,7 +142,7 @@ Die Verbindung zwischen App und Server ist verschlüsselt (HTTPS). Passwörter s
 
 ## 10. Kinder und Jugendliche
 
-Qvox richtet sich an Personen ab 16 Jahren. Jüngere Personen dürfen die App nur mit Zustimmung ihrer Eltern nutzen.
+Qvoxe richtet sich an Personen ab 16 Jahren. Jüngere Personen dürfen die App nur mit Zustimmung ihrer Eltern nutzen.
 
 ---
 

@@ -6,11 +6,11 @@
 
 ## 1. Anbietende Partei und Geltungsbereich
 
-**Anbieter:** Qvox, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
+**Anbieter:** Qvoxe, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
 **Adresse:** Müllerwis 20, 8606 Greifensee, Schweiz
 **E-Mail:** support.qvoxe@gmail.com
 
-Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Qvox (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
+Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Qvoxe (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
 
 ---
 
@@ -157,7 +157,7 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 ## 13. Kontakt
 
 - **E-Mail für alle Anliegen (Support, Recht, Datenschutz):** support.qvoxe@gmail.com
-- **Post:** Qvox, Mamadou Balde, Müllerwis 20, 8606 Greifensee, Schweiz
+- **Post:** Qvoxe, Mamadou Balde, Müllerwis 20, 8606 Greifensee, Schweiz
 
 ---
 

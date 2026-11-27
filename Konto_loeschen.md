@@ -1,12 +1,12 @@
 # Konto und Daten löschen
 
-**App:** Qvox (Android) · **Anbieter:** Qvox, Mamadou Balde, Greifensee
+**App:** Qvoxe (Android) · **Anbieter:** Qvoxe, Mamadou Balde, Greifensee
 
-Du kannst dein Qvox-Konto und die zugehörigen Daten jederzeit löschen.
+Du kannst dein Qvoxe-Konto und die zugehörigen Daten jederzeit löschen.
 
 ## In der App (sofort)
 
-1. Öffne Qvox und melde dich an.
+1. Öffne Qvoxe und melde dich an.
 2. Gehe zu **Profil**.
 3. Tippe auf **Konto löschen**.
 4. Gib dein Passwort ein und bestätige. Hast du dich mit Google oder Apple angemeldet, meldest du dich kurz ab und wieder an und lässt das Passwortfeld dann leer.

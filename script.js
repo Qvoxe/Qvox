@@ -1,5 +1,5 @@
 ﻿/* ═══════════════════════════════════════════════════
-  Qvox — Ultra-Premium Interactions
+  Qvoxe — Ultra-Premium Interactions
    Particles, 3D tilt, parallax, magnetic btns,
    morphing glows, typing fx, stagger reveals
    ═══════════════════════════════════════════════════ */
