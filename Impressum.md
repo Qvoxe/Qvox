@@ -6,8 +6,8 @@
 
 **Qvox**
 Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
-Freiestrasse 100
-8032 Zürich
+Müllerwis 20
+8606 Greifensee
 Schweiz
 
 **E-Mail:** support.qvoxe@gmail.com

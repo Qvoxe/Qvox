@@ -1,6 +1,6 @@
 # Konto und Daten löschen
 
-**App:** Qvox (Android) · **Anbieter:** Qvox, Mamadou Balde, Zürich
+**App:** Qvox (Android) · **Anbieter:** Qvox, Mamadou Balde, Greifensee
 
 Du kannst dein Qvox-Konto und die zugehörigen Daten jederzeit löschen.
 

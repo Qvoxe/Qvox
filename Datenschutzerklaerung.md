@@ -9,7 +9,7 @@ Diese Datenschutzerklärung gilt für die App «Qvox» (Android, Web) und die We
 ## 1. Verantwortliche Stelle
 
 Qvox, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
-Freiestrasse 100, 8032 Zürich, Schweiz
+Müllerwis 20, 8606 Greifensee, Schweiz
 E-Mail: support.qvoxe@gmail.com
 
 Für alle Fragen zum Datenschutz und für Anfragen zu deinen Rechten erreichst du uns unter dieser Adresse.
