@@ -1,16 +1,14 @@
 # Allgemeine Geschäftsbedingungen (AGB)
 
-**Gültig ab: 20. März 2026**
+**Gültig ab: 26. November 2026**
 
 ---
 
 ## 1. Anbietende Partei und Geltungsbereich
 
-**Unternehmen:** Qvox
-**Inhaber:** Mamadou Balde
+**Anbieter:** Qvox, Einzelunternehmen von Mamadou Balde (nicht im Handelsregister eingetragen)
 **Adresse:** Freiestrasse 100, 8032 Zürich, Schweiz
-**E-Mail:** info@qvox.ch
-**Support:** info@qvox.ch
+**E-Mail:** support.qvoxe@gmail.com
 
 Diese AGB gelten für sämtliche Nutzerinnen und Nutzer (nachfolgend «Kundinnen und Kunden»), die den Dienst Qvox (nachfolgend «Dienst») verwenden. Mit der Registrierung oder Nutzung des Dienstes erklären sich Kundinnen und Kunden mit diesen AGB einverstanden.
 
@@ -24,15 +22,19 @@ Der Dienst umfasst insbesondere:
 - Ernährungs- und Trainingsfunktionen (Planung, Protokollierung, Auswertungen)
 - Kommunikation zwischen Kundinnen/Kunden und Trainerinnen/Trainern (falls aktiviert)
 - Upload-Funktionen (z. B. Technik- und Trainingsvideos), sofern freigeschaltet
-- Optional: KI-gestützte Assistenzfunktionen (falls aktiviert)
+- KI-gestützte Funktionen: Chat mit dem Assistenten «Nova» und Erkennung von Mahlzeiten auf Fotos
 
 Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt keine medizinische, therapeutische oder ernährungswissenschaftliche Beratung.**
+
+Für die Web-Version und die mobilen Apps gelten dieselben Nutzungsbedingungen.
+
+2.1 **KI-Funktionen:** Antworten von Nova und Ergebnisse der Fotoerkennung werden automatisch erzeugt. Sie können unvollständig oder falsch sein, z. B. bei Kalorien, Nährwerten oder Allergenen. Prüfe wichtige Angaben selbst, insbesondere bei Allergien. Die Zahl der Nova-Nachrichten pro Tag ist je nach Plan begrenzt; die aktuellen Grenzen werden in der App angezeigt.
 
 ---
 
 ## 3. Registrierung und Benutzerkonto
 
-3.1 Für bestimmte Funktionen ist eine Registrierung erforderlich.
+3.1 Für bestimmte Funktionen ist eine Registrierung erforderlich. Die Nutzung ist ab 16 Jahren erlaubt; jüngere Personen brauchen die Zustimmung ihrer Eltern.
 
 3.2 Kundinnen und Kunden sind verpflichtet, bei der Registrierung wahrheitsgemässe Angaben zu machen und ihre Zugangsdaten vertraulich zu behandeln.
 
@@ -48,7 +50,7 @@ Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt kei
 
 4.3 Kundinnen und Kunden sind selbst verantwortlich, vor der Umsetzung jeglicher Trainings- oder Ernährungsempfehlungen ärztlichen bzw. fachmedizinischen Rat einzuholen — insbesondere bei bestehenden gesundheitlichen Einschränkungen, Schwangerschaft, chronischen Erkrankungen, Essstörungen, Verletzungen oder Medikamenteneinnahme.
 
-4.4 Der Anbieter übernimmt keinerlei Haftung für Schäden, Verletzungen oder Nachteile, die aus der Anwendung von Empfehlungen oder Inhalten des Dienstes entstehen.
+4.4 Soweit gesetzlich zulässig, haftet der Anbieter nicht für Schäden, Verletzungen oder Nachteile, die aus der Anwendung von Empfehlungen oder Inhalten des Dienstes entstehen (siehe Ziffer 10).
 
 ---
 
@@ -92,13 +94,21 @@ Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt kei
 
 8.1 Es gelten die zum Zeitpunkt des Vertragsabschlusses angezeigten Preise. Sämtliche Preise verstehen sich in Schweizer Franken (CHF), sofern nicht anders angegeben.
 
-8.2 Zahlungen werden über den externen Zahlungsdienstleister **Stripe** (Stripe, Inc.) abgewickelt. Es gelten zusätzlich die Nutzungsbedingungen von Stripe. Der Anbieter speichert keine vollständigen Kreditkartendaten.
+8.2 Wer in der **Android-App** kauft, bezahlt über **Google Play**. Verkäufer gegenüber der Kundin oder dem Kunden ist dabei Google; es gelten zusätzlich die Bedingungen von Google Play. Wer auf der **Website** kauft, bezahlt über den Zahlungsdienstleister **Stripe**; es gelten zusätzlich die Bedingungen von Stripe. Der Anbieter erhält und speichert in beiden Fällen keine Kreditkartendaten.
 
-8.3 Abonnements verlängern sich nicht automatisch, sofern nicht ausdrücklich anders angegeben. Kostenpflichtige Funktionen können jederzeit deaktiviert werden.
+8.3 Es gibt zwei Arten von Mitgliedschaften; welche gilt, wird vor dem Kauf angezeigt:
+- **Einmalzahlung:** Die Mitgliedschaft gilt für die gekaufte Dauer (z. B. 6 oder 12 Monate) und endet danach automatisch. Es gibt keine Verlängerung ohne neue Zahlung.
+- **Abonnement:** Das Abo verlängert sich am Ende jeder Laufzeit automatisch um dieselbe Dauer und wird erneut belastet, bis es gekündigt wird.
 
-8.4 Die Kündigung kostenpflichtiger Funktionen ist jederzeit über die Kontoeinstellungen möglich und wird per sofort wirksam.
+8.4 Ein Abonnement kann jederzeit gekündigt werden: ein über Google Play gekauftes Abo im Google Play Store unter «Zahlungen und Abos → Abos» (in der App: «Mitgliedschaft → Abo verwalten (Google Play)»), ein auf der Website gekauftes Abo auf der Website unter «Abo verwalten». Die Kündigung wirkt auf das Ende der laufenden Laufzeit; bis dahin bleiben die Premium-Funktionen verfügbar. Das Löschen der App beendet kein Abo.
 
-8.5 Bei Zahlungsverzug kann der Anbieter den Zugang zu kostenpflichtigen Funktionen vorübergehend einschränken oder sperren.
+8.4a Für Käufe über Google Play gelten für Rückerstattungen die Regeln von Google Play; Anträge werden bei Google gestellt. Erstattet Google einen Kauf, endet die damit gekaufte Mitgliedschaft.
+
+8.5 Nach schweizerischem Recht besteht bei Online-Käufen kein gesetzliches Widerrufsrecht. Bereits bezahlte Laufzeiten werden nicht anteilig zurückerstattet, ausser das Gesetz verlangt es oder der Anbieter hat den Dienst nicht erbracht. Zwingende Rechte von Konsumentinnen und Konsumenten mit Wohnsitz in der EU bleiben vorbehalten.
+
+8.6 Preisänderungen gelten für ein laufendes Abonnement erst ab der nächsten Verlängerung und werden mindestens 30 Tage vorher angekündigt. Wer nicht einverstanden ist, kann vorher kündigen.
+
+8.7 Bei Zahlungsverzug kann der Anbieter den Zugang zu kostenpflichtigen Funktionen vorübergehend einschränken oder sperren.
 
 ---
 
@@ -106,7 +116,7 @@ Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt kei
 
 9.1 Der Vertrag beginnt mit der Registrierung bzw. der Aktivierung eines kostenpflichtigen Plans.
 
-9.2 Kundinnen und Kunden können ihr Konto jederzeit kündigen und die Löschung ihrer Daten verlangen, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+9.2 Kundinnen und Kunden können ihr Konto jederzeit in der App unter «Profil → Konto löschen» löschen. Ein laufendes Abonnement wird dabei beendet: Es verlängert sich nicht mehr und es erfolgen keine weiteren Zahlungen. Die restliche Laufzeit verfällt ohne Rückerstattung. Daten, die gesetzlich aufbewahrt werden müssen (z. B. Buchhaltungsbelege), bleiben bis zum Ablauf der Frist erhalten.
 
 9.3 Der Anbieter kann den Vertrag aus wichtigem Grund fristlos kündigen — insbesondere bei Missbrauch, Sicherheitsangriffen oder schweren Verstössen gegen diese AGB.
 
@@ -120,7 +130,9 @@ Der Dienst stellt Informationen, Vorlagen und Werkzeuge bereit. **Er ersetzt kei
 
 10.3 Eine Haftung für indirekte Schäden, Folgeschäden, entgangenen Gewinn oder Datenverlust ist — soweit gesetzlich zulässig — ausgeschlossen.
 
-10.4 Die Haftung für Personenschäden bleibt unberührt.
+10.4 Die Haftung für leichte Fahrlässigkeit ist, soweit gesetzlich zulässig, auf den Betrag beschränkt, den die Kundin oder der Kunde in den letzten 12 Monaten für den Dienst bezahlt hat.
+
+10.5 Die Haftung für Personenschäden und die zwingende gesetzliche Haftung bleiben unberührt.
 
 ---
 
@@ -144,9 +156,8 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ## 13. Kontakt
 
-- **Rechtliche Anfragen:** info@qvox.ch
-- **Support:** info@qvox.ch
-- **Allgemein:** info@qvox.ch
+- **E-Mail für alle Anliegen (Support, Recht, Datenschutz):** support.qvoxe@gmail.com
+- **Post:** Qvox, Mamadou Balde, Freiestrasse 100, 8032 Zürich, Schweiz
 
 ---
 
@@ -157,14 +168,4 @@ Die Verarbeitung personenbezogener Daten ist in der [Datenschutzerklärung](Date
 
 ---
 
-## 15. Aktualisierung und Review-Zyklus
-
-15.1 Diese AGB werden mindestens quartalsweise sowie bei wesentlichen Produkt- oder Gesetzesänderungen überprüft.
-
-15.2 Änderungen werden versioniert dokumentiert; die jeweils aktuelle Fassung ist im Dienst und im Repository verfügbar.
-
-15.3 Bei wesentlichen Änderungen werden Nutzerinnen und Nutzer aktiv informiert (z. B. In-App-Hinweis oder E-Mail).
-
----
-
-*Zuletzt aktualisiert: 20. März 2026*
+*Zuletzt aktualisiert: 26. November 2026*
